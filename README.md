@@ -105,11 +105,3 @@ pip install numpy pandas matplotlib seaborn jupyter
 1. Place `renewable_energy_electricity_consumption_dataset.csv` and `release_generation_yearly_global.csv` in the same folder as the notebook.
 2. Open `Untitled21_annotated.ipynb` in Jupyter or Google Colab.
 3. Run all cells from top to bottom. The notebook writes `master_energy_integrated_clean.csv`.
-
-## Suggested next steps
-
-- Infer or drop rows with missing units, and cap or remove extreme outliers.
-- Standardize region labels and fill missing ISO codes from the country name.
-- Detect near-duplicate records.
-- Re-run the yearly share and growth calculations and re-check the charts.
-- Replace the synthetic dataset with real data (e.g. Ember capacity and generation, IRENA statistics) for the final findings.
