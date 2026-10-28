@@ -21,7 +21,7 @@ Compare renewable energy adoption, electricity generation and consumption across
 
 | Dataset | File | Type | Rows x Columns | Used for |
 |---|---|---|---|---|
-| Dataset 1 | `renewable_energy_electricity_consumption_dataset.csv` | Synthetic (script-generated, intentionally messy) | 10,557 x 20 | Generation, installed capacity, energy mix, consumption, population, GDP by country, year and energy source |
+| Dataset 1 | `renewable_energy_electricity_consumption_dataset.csv` | Real: OWID Dataset | 10,557 x 20 | Generation, installed capacity, energy mix, consumption, population, GDP by country, year and energy source |
 | Dataset 2 | `release_generation_yearly_global.csv` | Real: Ember yearly electricity data | 68,222 x 24 | Benchmark for national electricity demand and power-sector emissions |
 
 **Dataset 1 coverage:** 50 countries, 2000-2022, 9 energy sources (hydro, solar, wind, bioenergy, geothermal, coal, gas, oil, nuclear). Messiness was added on purpose: missing values, exact and near-duplicate rows, mixed units (MW/GW, GWh/TWh, TWh/GWh/PJ), inconsistent country, region and source labels, and mixed reporting-period formats (including fiscal years).
